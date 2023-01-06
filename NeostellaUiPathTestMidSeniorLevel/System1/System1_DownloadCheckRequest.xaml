@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1127.2,2274.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>843.2,2274.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_DownloadCheckRequest_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="29">
@@ -124,7 +124,7 @@
             </ui:Click>
             <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'Current PDF'" sap:VirtualizedContainerService.HintSize="337.6,116.8" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
               <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d638a752-a998-424a-919a-d774a4743f4e" InformativeScreenshot="072752b1fcddc3393f9690f3b334c986" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='*Google Chrome' /&gt;&lt;ctrl role='pane' idx='38' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d638a752-a998-424a-919a-d774a4743f4e" InformativeScreenshot="072752b1fcddc3393f9690f3b334c986" Selector="&lt;wnd app='chrome.exe' omit:cls='Chrome_WidgetWin_1' title='*Google Chrome' /&gt;&lt;ctrl role='pane' idx='37' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
